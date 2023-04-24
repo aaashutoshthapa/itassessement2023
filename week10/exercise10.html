@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Task 6.10</title>
+    </head>
+    <body>
+        <p>Enter length:<input type="text" id="l" name="l" ></p>
+        <p>Enter breadth:<input type="text" id="b" name="b" ></p>
+        <p><input type="button" value="Area of Rectangle" id ="area" onclick="calculate()"></p>
+        <script>
+            function calculate(l, b) {
+                var l=parseInt(document.getElementById("l").value);
+                var b=parseInt(document.getElementById("b").value);
+                area = l* b;
+                document.write("The area of the rectangle is: " + area);
+              }   
+        </script>
+    </body>
+</html>
